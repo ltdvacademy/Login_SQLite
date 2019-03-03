@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MenuLogin" >
+
+    <Button
+        android:id="@+id/btnMasuk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:onClick="signIn"/>
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Akun" />
+
+</LinearLayout>
